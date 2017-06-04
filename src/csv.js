@@ -9,7 +9,7 @@ var fixCSVField = function(value) {
     if (addQuotes || replaceDoubleQuotes) {
         value = '"' + value + '"';
     }
-    return '\t' + value;
+    return value;
 };
 
 module.exports = function (table) {
